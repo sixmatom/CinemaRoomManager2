@@ -1,0 +1,42 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Cinema Room Manager/*
+!/Cinema Room Manager/task/
+/Cinema Room Manager/task/*
+!/Cinema Room Manager/task/src
+
+# Project exclude paths
+/Topics/Break and continue. Branching/Integer iteration with selective conditions and halt/out/
+/Topics/Break and continue. Branching/Integer iteration with selective conditions and halt/out/production/classes/
+/Topics/Break and continue. Branching/The integer barrier/out/
+/Topics/Break and continue. Branching/The integer barrier/out/production/classes/
+/Topics/Break and continue. Branching/The sequence/out/
+/Topics/Break and continue. Branching/The sequence/out/production/classes/
+/Topics/Formatted output/Job simulation/out/
+/Topics/Formatted output/Job simulation/out/production/classes/
+/Topics/Functional decomposition/Method createFullName/out/
+/Topics/Functional decomposition/Method createFullName/out/production/classes/
+/Topics/Multiple conditions  switch/Floor-space of the room/out/
+/Topics/Multiple conditions  switch/Floor-space of the room/out/production/classes/
+/Topics/Multiple conditions  switch/Shape/out/
+/Topics/Multiple conditions  switch/Shape/out/production/classes/
+/Topics/NullPointerException/Avoid NPE/out/
+/Topics/NullPointerException/Avoid NPE/out/production/classes/
+/Topics/NullPointerException/Avoid NPE with strings/out/
+/Topics/NullPointerException/Avoid NPE with strings/out/production/classes/
+/Topics/Type casting/Rounding down a halved float value to an integer/out/
+/Topics/Type casting/Rounding down a halved float value to an integer/out/production/classes/
+/Topics/While and do-while loops/Finding the smallest multiple of 3 larger than 'n'/out/
+/Topics/While and do-while loops/Finding the smallest multiple of 3 larger than 'n'/out/production/classes/
+/Topics/While and do-while loops/The sum of elements/out/
+/Topics/While and do-while loops/The sum of elements/out/production/classes/
