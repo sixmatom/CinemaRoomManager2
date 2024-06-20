@@ -26,10 +26,8 @@ public class Cinema {
     }
 
     private static void initializeCinema() {
-        System.out.println("Enter the number of rows:");
-        rows = scanner.nextInt();
-        System.out.println("Enter the number of seats in each row:");
-        seatsPerRow = scanner.nextInt();
+        rows = getInput("Enter the number of rows:");
+        seatsPerRow = getInput("Enter the number of seats in each row:");
         cinema = new char[rows][seatsPerRow];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < seatsPerRow; j++) {
